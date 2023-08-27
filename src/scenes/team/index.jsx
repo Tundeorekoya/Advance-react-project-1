@@ -86,15 +86,15 @@ const Team = () => {
               color: colors.greenAccent[300],
             },
             "& .MuiDataGrid-columnHeaders": {
-              backgroundColor: colors.primary[600],
+              backgroundColor: colors.indigoAccent[700],
               borderBottom: "none",
             },
             "& .MuiDataGrid-virtualScroller": {
-              backgroundColor: colors.primary[600],
+              backgroundColor: colors.primary[400],
             },
             "& .MuiDataGrid-footerContainer": {
               borderTop: "none",
-              backgroundColor: colors.primary[600],
+              backgroundColor: colors.indigoAccent[700],
             },
             "& .MuiCheckbox-root": {
               color: `${colors.greenAccent[200]} !important`,

@@ -31,7 +31,7 @@ const FAQ = () =>{
             </Accordion>
 
 
-            <Accordion defaultExpanded sx={{borderRadius:"0.5rem"}}>
+            <Accordion sx={{borderRadius:"0.5rem"}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={colors.greenAccent[500]} variant="h6" sx={{fontSize:"16px"}}>
                 Your Favorite Question              
@@ -47,7 +47,7 @@ const FAQ = () =>{
             </Accordion>
 
 
-            <Accordion defaultExpanded sx={{borderRadius:"0.5rem"}}>
+            <Accordion sx={{borderRadius:"0.5rem"}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={colors.greenAccent[500]} variant="h6" sx={{fontSize:"16px"}}>
                 Some Random Question
@@ -63,7 +63,7 @@ const FAQ = () =>{
             </Accordion>
 
 
-            <Accordion defaultExpanded  sx={{borderRadius:"0.5rem"}}>
+            <Accordion  sx={{borderRadius:"0.5rem"}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={colors.greenAccent[500]} variant="h6" sx={{fontSize:"16px"}}>
                 The Final Question
@@ -78,7 +78,7 @@ const FAQ = () =>{
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion defaultExpanded sx={{borderRadius:"0.5rem"}}>
+            <Accordion   sx={{borderRadius:"0.5rem"}}>
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
                 <Typography color={colors.greenAccent[500]} variant="h6" sx={{fontSize:"16px"}}>
                 An Important Question
